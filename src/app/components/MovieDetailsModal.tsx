@@ -1,5 +1,5 @@
 import React from "react";
-import { MovieDetails } from "../types";
+import { MovieDetails } from "../type";
 
 interface MovieDetailsModalProps { 
   movie: MovieDetails | null; // Allow null for loading states
@@ -129,3 +129,4 @@ const MovieDetailsModal: React.FC<MovieDetailsModalProps> = ({ movie, onClose })
 };
 
 export default MovieDetailsModal;
+
