@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Image from "next/image";
-import { MovieSearchResult } from "../types";
+import { MovieSearchResult } from "../type";
 
 interface MovieCardProps { 
   movie: MovieSearchResult; 
