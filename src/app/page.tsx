@@ -6,7 +6,7 @@ import Filters from "./components/Filters";
 import MovieCard from "./components/MovieCard";
 import Pagination from "./components/Pagination";
 import MovieDetailsModal from './components/MovieDetailsModal';
-import { MovieSearchResult, MovieDetails, ApiSearchResponse, SearchQuery } from './types';
+import { MovieSearchResult, MovieDetails, ApiSearchResponse, SearchQuery } from './type';
 
 const API_KEY = process.env.NEXT_PUBLIC_OMDB_API_KEY;
 
